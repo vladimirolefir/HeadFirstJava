@@ -74,7 +74,7 @@ public class TestGenerics1 {
     }
     But THIS would not compile:
     animals.add(new Cat());
-    
+
     This:
         public <T extends Animal> void takeThing(ArrayList<T> list)
     Does the same thing as this:

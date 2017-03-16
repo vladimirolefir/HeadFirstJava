@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="0.2 1.0" codebase="http://jnlp-test/" href="MyApp.jnlp">
+    <information>
+        <title>kathy App</title>
+        <vendor>Wickedly Smart</vendor>
+        <homepage href="index.html"/>
+        <description>Head First WebStart demo</description>
+        <icon href="kathys.gif"/>
+        <offline-allowed/>
+    </information>
+    <resources>
+        <j2se version="1.5+"/>
+        <jar href="app1.jar"/>
+    </resources>
+    <application-desc main-class="MyApp"/>
+</jnlp>
